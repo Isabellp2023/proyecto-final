@@ -1,24 +1,60 @@
+.proyecto {
+    display: flex;
+    flex-direction: row;
+    
+}
+.home > h1 {
+    font-size: 60px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .home {
-    padding: 0 8rem;
+    padding: 0 7rem;
     height: 80vh;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 3rem;
     }
-    @media (max-width: 700px) {
+    @media (max-width: 600px) {
+        .home {
+        padding: 0.5rem;
+        }
+        .home > h1 {
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 780px) {
     .home {
-    padding: 0 2rem;
+    padding: 0.5rem;
+    
     }
     }
-    .home > h1 {
-    font-size: 5.5rem;
-    background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    }
+    
     .home > a {
     font-size: 1.5rem;
     }
+    .photo {
+        display: flex;
+        width: 40%;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .photo img {
+        border-radius: 50%;
+        width: 20vw;
+        height: 20vw;
+        display: flex;
+        
+    }
+    p {
+        font-size: 20px;
+        color: black;
+    }
+    
+    

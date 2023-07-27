@@ -13,8 +13,14 @@ footer {
     gap: 2rem;
 }
 }
+
 footer > div {
 display: flex;
 gap: 1rem;
 flex-wrap: wrap;
+}
+
+footer > h2 {
+ color: black;
+ font-size: 30px;
 }

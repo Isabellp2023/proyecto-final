@@ -16,7 +16,7 @@ themeBtn.innerText = "☀";
 };
 export const Navbar = () => `
 <nav>
-<h2>Isabel Lopez</h2>
+<h2></h2>
 <ul>
 <li>
 <a href="#" id="homelink">Home</a>

@@ -1,33 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 :root {
---primary-dark: whitesmoke;
---bg-dark: #111111;
---primary-light: #111111;
---bg-light: whitesmoke;
---highlight: #6cace4;
---divider: rgb(164, 164, 164);
+--primary-dark: rgb(54, 119, 162);
+--bg-dark: #black;
+--primary-light: #acacd4;
+--bg-light: rgba(86, 105, 109, 0.838);
+--highlight: #475859b0;
+--divider: black;
+--tertiary: black;
 }
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: "Roboto", sans-serif;
+font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 li {
 list-style-type: none;
 }
 a {
 text-decoration: none;
-color: inherit;
+color: black;
+
 }
 html {
 scroll-behavior: smooth;
+
 }
 body {
+min-height: 100vh;
+font-size: 100%;
+font-smooth: always;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing : grayscale;    
 background-color: var(--bg-dark);
 color: var(--primary-dark);
 transition: all 0.5s ease-in-out;
 }
+
 .light {
 background-color: var(--bg-light);
 color: var(--primary-light);
@@ -35,7 +44,5 @@ color: var(--primary-light);
 main {
 min-height: 80vh;
 }
-a,
-p {
-font-size: 1.1rem;
-}
+
+

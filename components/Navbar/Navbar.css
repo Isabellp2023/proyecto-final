@@ -9,6 +9,7 @@ nav {
     @media (max-width: 770px) {
     nav {
     padding: 0 2rem;
+    width: 100px;
     }
     }
     nav > ul {
@@ -18,12 +19,15 @@ nav {
     nav button {
     background: none;
     border: none;
-    color: inherit;
+    color: black;
     transform: scale(1.5);
+    display: block;
+    border-radius: 4rem;
     }
     nav a {
     transition: all 0.3s ease-in-out;
     }
     nav a:hover {
-    color: var(--highlight);
+    color: black;
+    
     }
